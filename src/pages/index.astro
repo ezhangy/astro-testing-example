@@ -1,0 +1,10 @@
+---
+import Counter from "../components/Counter";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Astro Testing Example">
+  <main>
+    <Counter initialCount={0} client:load />
+  </main>
+</Layout>
