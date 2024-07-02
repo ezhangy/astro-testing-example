@@ -1,10 +1,11 @@
 ---
 import Counter from "../components/Counter";
+import ReactWrapper from "../components/ReactWrapper.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Astro Testing Example">
   <main>
-    <Counter initialCount={0} client:load />
+    <ReactWrapper />
   </main>
 </Layout>
